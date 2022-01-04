@@ -23,13 +23,14 @@ a:hover {
 }
 
 .navbar {
-    flex: 0.2;
+    /* flex: 0.2; */
     background-color: rgb(0, 21, 41);
 }
 
 .main {
-    flex: 0.8;
-    width: 100%;
+    /* flex: 0.8; */
+    margin-left: auto;
+    width: 87%;
 }
 
 .routes {
@@ -39,7 +40,6 @@ a:hover {
 .nav-container {
     position: fixed;
     left: 0;
-    margin: 10px;
     height: 100vh;
     margin: 0px;
     background-color: rgb(0, 21, 41);
